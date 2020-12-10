@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100%;
+}
+#Beranda{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+    float: left;
+}
+header ul{
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    float: right;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: orange;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    
+}
+.kontenBeranda{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kontenBeranda .desc{
+    position: relative;
+    max-width: 600px;
+    padding-top: 50px;
+
+}
+.kontenBeranda .desc h2{
+    color:orange;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.kontenBeranda .desc h2 span{
+    color:#ff4584;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 800;
+}
+.kontenBeranda .desc p{
+    color:orange;
+}
+.kontenBeranda .f1{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+.kontenBeranda .f1 .food1{
+    width: 800px;
+}
+.ling{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#ff4584;
+    clip-path: circle(600px at right 700px);
+}
+.pop-up{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+.isi{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+.isi p{
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: orange;
+}
+.isi a{
+    width: 50%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #f53677;
+    background-color: #f53677;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.isi img{
+    width: 20%;
+}

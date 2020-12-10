@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="Daftar.css">
+</head>
+<body>
+  <section id="Daftar">
+    <header class="nav">
+        <img src="makanKuy.jpg" alt="" class="logo">
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="rekomendasi.html">Rekomendasi Makanan</a></li>
+            <li><a href="Login.html">Masuk</a></li>
+        </ul>
+    </header>
+    <div class="foto">
+      <img src="fewd.jpg" alt="">
+    </div>
+    <div class="konten">
+      <div class="formDaftar">
+        <h2>Daftar</h2>
+        <form method="POST">
+           <div class="inputForm">
+                <span>Nama</span>
+                <input type="nama" id="nama" required>
+           </div>
+           <div class="inputForm">
+            <span>Jenis Kelamin</span>
+            <select name="jenisK" id="jenisK">
+                <option></option>
+                <option>Laki-laki</option>
+                <option>Perempuan</option>
+            </select>
+           </div>
+          <div class="inputForm">
+            <span>Username</span>
+            <input type="username" id="user" required>
+          </div>
+          <div class="inputForm">
+            <span>Email</span>
+            <input type="email" id="email" required>
+          </div>
+          <div class="inputForm">
+            <span>Password</span>
+            <input type="password" id="pw" required>
+          </div>
+          <div class="inputForm">
+            <input type="button" value="Daftar" id="tombol" onclick="tampilkan()">
+          </div>
+        </form>
+        <h3>Daftar dengan sosial media</h3>
+        <ul class="sosmed">
+          <li><a href="http://facebook.com/"><img src="facebook.png" alt=""></a></li>
+          <li><a href="http://instagram.com/"><img src="insta.png" alt=""></a></li>
+          <li><a href="http://twitter.com/"><img src="twitter.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script src="Daftar.js"></script>
+</body>

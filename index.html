@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="Beranda.css">
+</head>
+<body>
+  <section id="Beranda">
+    <div class="ling"></div>
+    <header>
+      <img src="makanKuy.jpg" alt="" class="logo">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="rekomendasi.html">Rekomendasi Makanan</a></li>
+        <li><a href="Login.html">Masuk</a></li>
+      </ul>
+    </header>
+    <div class="kontenBeranda">
+      <div class="desc">
+        <h2>Bingung mau makan apa?<br>
+          Cek aja rekomendasi makananan di <span>MakanKuy</span>
+        </h2>
+        <br>
+        <p>
+          MakanKuy siap menyediakan rekomendasi makanan buat kamu atau si doi yang sering bingung mau makan apa hari ini! <i>Goodbye</i> bimbang, hati tenang, perut kenyang, doi makin sayang. 
+        </p>
+      </div>
+      <br>
+      <div class="f1">
+        <img src="f1.png" alt="" class="food1">
+      </div>
+    </div>
+  </section>
+  <div class="pop-up">
+    <div class="isi">
+        <img src="makanKuy.jpg" alt="">
+        <p>Selamat Datang di MakanKuy! Kami Siap Menyediakan Rekomendasi Makanan-Makanan Enak Buat Kamu!</p><br>
+        <a href="#" id="oke">Oke</a>
+    </div>
+  </div>
+  <script>
+      document.getElementById("oke").addEventListener("click",function(){
+          document.querySelector(".pop-up").style.display='none';
+      },);
+  </script>
+</body>
+  
